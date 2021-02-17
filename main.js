@@ -6,7 +6,6 @@ pizza.addToppings = function () {
     console.log("Please add pepperoni and sausage");
 }
 pizza.addToppings(); 
-
 pizza.orderPizza = function () {
     console.log(crust);
     console.log(cheese);

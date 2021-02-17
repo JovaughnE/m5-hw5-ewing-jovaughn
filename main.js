@@ -2,14 +2,14 @@ let pizza = new Object();
 pizza.crust = "plain";
 pizza.cheese = "mozzarella";
 pizza.sauce = "red";
-pizza.addToppings = addToppings() {
+pizza.addToppings = function () {
     console.log("Please add pepperoni and sausage");
 }
 pizza.addToppings(); 
 
-pizza.orderPizza = orderPizza() {
+pizza.orderPizza = function () {
     console.log(crust);
     console.log(cheese);
     console.log(sauce);
-    console.log(addToppings(););
+    console.log(addToppings());
 }
